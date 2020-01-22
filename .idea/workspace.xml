@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="36c3d9e7-3229-4553-8a48-4f016769b145" name="Default Changelist" comment="myipaddr is an external data source to get in provision time the terraform client IP. And private" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.tf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1500">
+              <caret line="100" column="8" selection-start-line="100" selection-start-column="2" selection-end-line="100" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bootstrap.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/replicaset-v1.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/hellosvc.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/variables.tf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="22" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/pipeline.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor>
+                <caret column="31" selection-start-column="31" selection-end-column="31" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>min</find>
+      <find>aws_security_group</find>
+      <find>groupId</find>
+      <find>image</find>
+      <find>deploy</find>
+      <find>namespace</find>
+      <find>charts</find>
+      <find>account</find>
+      <find>pipeline</find>
+      <find>dep</find>
+      <find>pipel</find>
+      <find>replica</find>
+      <find>pipeline.json</find>
+      <find>bluegreen</find>
+      <find>pipe</find>
+      <find>lables</find>
+      <find>provider</find>
+      <find>hellota</find>
+      <find>kubectl</find>
+      <find>selector</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/variables.tf" />
+        <option value="$PROJECT_DIR$/pipeline.json" />
+        <option value="$PROJECT_DIR$/resources/config.yaml" />
+        <option value="$PROJECT_DIR$/resources/deployment.yaml" />
+        <option value="$PROJECT_DIR$/resources/pipeline.yaml" />
+        <option value="$PROJECT_DIR$/main.tf" />
+        <option value="$PROJECT_DIR$/resources/replicaset-v1.yaml" />
+        <option value="$PROJECT_DIR$/resources/hellosvc.yaml" />
+        <option value="$PROJECT_DIR$/resources/pipeline.json" />
+        <option value="$PROJECT_DIR$/bootstrap.sh" />
+        <option value="$PROJECT_DIR$/README.md" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/interview-challenge.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TF_FMT" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="36c3d9e7-3229-4553-8a48-4f016769b145" name="Default Changelist" comment="" />
+      <created>1578858832155</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578858832155</updated>
+      <workItem from="1578858833677" duration="2671000" />
+      <workItem from="1578863217610" duration="16574000" />
+      <workItem from="1579117372504" duration="9035000" />
+      <workItem from="1579201173185" duration="25530000" />
+      <workItem from="1579273286746" duration="28898000" />
+      <workItem from="1579553121085" duration="388000" />
+      <workItem from="1579682811820" duration="91000" />
+      <workItem from="1579683058194" duration="10000" />
+    </task>
+    <task id="LOCAL-00001" summary="terraform scripts to provision an ec2 instance">
+      <created>1578859083673</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578859083673</updated>
+    </task>
+    <task id="LOCAL-00002" summary="provisioner to run a script directly after launch">
+      <created>1578859153469</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578859153469</updated>
+    </task>
+    <task id="LOCAL-00003" summary="bootstrap script">
+      <created>1578859343662</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1578859343662</updated>
+    </task>
+    <task id="LOCAL-00004" summary="installing kubectl (latest release)">
+      <created>1578860607891</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1578860607891</updated>
+    </task>
+    <task id="LOCAL-00005" summary="installing docker (required for minikube)&#10;installing minikube">
+      <created>1578860655791</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1578860655791</updated>
+    </task>
+    <task id="LOCAL-00006" summary="start docker">
+      <created>1578860671188</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1578860671188</updated>
+    </task>
+    <task id="LOCAL-00007" summary="start minikube cluster">
+      <created>1578861236343</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1578861236343</updated>
+    </task>
+    <task id="LOCAL-00008" summary="installing helm chart">
+      <created>1578861389167</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1578861389167</updated>
+    </task>
+    <task id="LOCAL-00009" summary="clone helm charts (used a pull request 18545 due to a bug fix related to versions )">
+      <created>1578861511023</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1578861511023</updated>
+    </task>
+    <task id="LOCAL-00010" summary="install spinnaker helm chart in a allianz namespace">
+      <created>1578864028161</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1578864028161</updated>
+    </task>
+    <task id="LOCAL-00011" summary="add git and socat packges">
+      <created>1578865059102</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1578865059102</updated>
+    </task>
+    <task id="LOCAL-00012" summary="add comment for socat">
+      <created>1578865211712</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1578865211712</updated>
+    </task>
+    <task id="LOCAL-00013" summary="changed ec2 type">
+      <created>1578871294614</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1578871294614</updated>
+    </task>
+    <task id="LOCAL-00014" summary="added public ip in the log and corrected port-forward command">
+      <created>1578872043279</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1578872043279</updated>
+    </task>
+    <task id="LOCAL-00015" summary="extended timeout to 120 seconds in waiting until the pods are running before port-forwarding">
+      <created>1578934142811</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1578934142811</updated>
+    </task>
+    <task id="LOCAL-00016" summary="myipaddr is an external data source to get in provision time the terraform client IP. And private key as variable">
+      <created>1579149269349</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1579149269350</updated>
+    </task>
+    <task id="LOCAL-00017" summary="security group for spinnaker to allow access to ec2 instance through ssh during provisioning and to be able to access spinnaker application. It is restricted only for your IP.">
+      <created>1579150914564</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1579150914564</updated>
+    </task>
+    <task id="LOCAL-00018" summary="changed security group name">
+      <created>1579151213823</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1579151213823</updated>
+    </task>
+    <task id="LOCAL-00019" summary="changed the namespace to default&#10;install spin (spinnaker cli)&#10;applied helloworld app service in kubernetes&#10;applied helloworld relicasets in kubernetes&#10;created a bluegreendeployment">
+      <created>1579244336196</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1579244336196</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Spinnaker pipeline in Readme">
+      <created>1579244596305</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1579244596305</updated>
+    </task>
+    <task id="LOCAL-00021" summary="copy config files from local into ec2">
+      <created>1579267046008</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1579267046008</updated>
+    </task>
+    <task id="LOCAL-00022" summary="add config files for the pipeline and for the helloworld application">
+      <created>1579267107512</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1579267107512</updated>
+    </task>
+    <task id="LOCAL-00023" summary="corrected readme">
+      <created>1579267127649</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1579267127649</updated>
+    </task>
+    <task id="LOCAL-00024" summary="removed unnecessary code">
+      <created>1579267227590</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1579267227590</updated>
+    </task>
+    <task id="LOCAL-00025" summary="increased timeout and retry loop to ensure that spin-gate is running when using spin">
+      <created>1579276187822</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1579276187822</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Spinnaker was very slow. It runs now on m4.xlarge">
+      <created>1579325308832</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1579325308832</updated>
+    </task>
+    <task id="LOCAL-00027" summary="removed annotations and lables from yamel">
+      <created>1579393703411</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1579393703411</updated>
+    </task>
+    <task id="LOCAL-00028" summary="config file for spinnaker cli&#10;removed flags from spin commands">
+      <created>1579394402318</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1579394402318</updated>
+    </task>
+    <task id="LOCAL-00029" summary="adjust README with the changes">
+      <created>1579394603093</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1579394603093</updated>
+    </task>
+    <task id="LOCAL-00030" summary="used an older kubectl version (v1.13.7) due to bugs with replicaSets">
+      <created>1579430639796</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1579430639796</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="83197000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26800978" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4993895" weight="0.32959184" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4993895" weight="0.3298731" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.48229548" visible="true" weight="0.32857144" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.51770455" side_tool="true" visible="true" weight="0.32857144" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.4859585" weight="0.25816327" />
+      <window_info anchor="bottom" id="Docker" order="11" />
+      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Serverless Framework GUI" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="SciView" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="start docker" />
+    <MESSAGE value="start minikube cluster" />
+    <MESSAGE value="installing helm chart" />
+    <MESSAGE value="clone helm charts (used a pull request 18545 due to a bug fix related to versions )" />
+    <MESSAGE value="install spinnaker helm chart in a allianz namespace" />
+    <MESSAGE value="add git and socat packges" />
+    <MESSAGE value="add comment for socat" />
+    <MESSAGE value="changed ec2 type" />
+    <MESSAGE value="added public ip in the log and corrected port-forward command" />
+    <MESSAGE value="extended timeout to 120 seconds in waiting until the pods are running before port-forwarding" />
+    <MESSAGE value="myipaddr is an external data source to get in provision time the terraform client IP. And private key as variable" />
+    <MESSAGE value="security group for spinnaker to allow access to ec2 instance through ssh during provisioning and to be able to access spinnaker application. It is restricted only for your IP." />
+    <MESSAGE value="changed security group name" />
+    <MESSAGE value="changed the namespace to default&#10;install spin (spinnaker cli)&#10;applied helloworld app service in kubernetes&#10;applied helloworld relicasets in kubernetes&#10;created a bluegreendeployment" />
+    <MESSAGE value="Spinnaker pipeline in Readme" />
+    <MESSAGE value="copy config files from local into ec2" />
+    <MESSAGE value="add config files for the pipeline and for the helloworld application" />
+    <MESSAGE value="corrected readme" />
+    <MESSAGE value="removed unnecessary code" />
+    <MESSAGE value="increased timeout and retry loop to ensure that spin-gate is running when using spin" />
+    <MESSAGE value="Spinnaker was very slow. It runs now on m4.xlarge" />
+    <MESSAGE value="removed annotations and lables from yamel" />
+    <MESSAGE value="config file for spinnaker cli&#10;removed flags from spin commands" />
+    <MESSAGE value="adjust README with the changes" />
+    <MESSAGE value="used an older kubectl version (v1.13.7) due to bugs with replicaSets" />
+    <option name="LAST_COMMIT_MESSAGE" value="used an older kubectl version (v1.13.7) due to bugs with replicaSets" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pipeline.json.1" />
+    <entry file="file://$PROJECT_DIR$/resources/config.yaml" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/pipeline.yaml" />
+    <entry file="file://$PROJECT_DIR$/resources/deployment.yaml" />
+    <entry file="file://$PROJECT_DIR$/main.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1500">
+          <caret line="100" column="8" selection-start-line="100" selection-start-column="2" selection-end-line="100" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/replicaset-v1.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/hellosvc.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/variables.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/pipeline.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="31" selection-start-column="31" selection-end-column="31" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
