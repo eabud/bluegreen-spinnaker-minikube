@@ -43,8 +43,8 @@ variable "private_key" {
 #### Installation
 
 ```hcl-terraform
-> git clone https://github.com/eabud/interview-challenge.git
-> cd interview-challenge
+> git clone https://github.com/eabud/bluegreen-spinnaker-minikube.git
+> cd bluegreen-spinnaker-minikube
 
 > awsume profile
 
